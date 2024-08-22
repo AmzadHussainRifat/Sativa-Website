@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="donate money to make earth green again">
+    <meta name="keywords" content="money, donation, tree">
+    <meta name="author" content="Amzad Hussain Rifat">
+    <title>Sativa.org</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External JS -->
+    <script defer src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">SATIVA</div> <!-- Logo of the website -->
+        <nav>
+            <!-- Navigation bar -->
+            <ul>
+                <!-- Navigation bar items -->
+                <div id="emailtext" class="emailtext"></div>
+                <li>
+                    <a href="#" id="logout" class="logout" title="LogOut">Log Out</a>
+                </li>
+                <li>
+                    <a id="account" aria-label="account"><i class="fa-solid fa-user"></i></a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown">
+                        <li><a href="signup.html" id="signup">Sign Up</a></li>
+                        <li><a href="login.html" id="login">Log In</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Cookie Consent Popup -->
+        <aside id="cookie" class="cookie-popup">
+            <div class="cookie-content">
+                <h1>Before you continue to SATIVA</h1>
+                <h2>We Value Your Privacy</h2>
+                <p>
+                    We use cookies to improve your experience on our website, making your visits more personalized and relevant to your interests. These small data files help us enhance site navigation, allowing you to find what you need more quickly and efficiently. Additionally, cookies enable us to analyze how our website is used, giving us valuable insights into visitor behavior. This helps us refine our content and tailor our services to better meet your needs.
+                    <br><br><br><br>By continuing to browse our site or by clicking "Accept," you consent to the storing of cookies on your device. This storage helps us remember your preferences and settings, ensuring a smoother, more seamless experience during your next visit. Cookies also play a crucial role in our marketing efforts, allowing us to show you content and advertisements that are more likely to be of interest to you, based on your previous interactions with our site.
+                    <br><br><br><br>You can manage your cookie preferences at any time, and more details about our cookie practices are available in our Cookie Policy. Thank you for trusting us with your online experience.
+                </p>
+                <button id="Accept" class="acceptbutton">Accept</button>
+                <button id="rejact" class="rejectbutton">Reject</button>
+            </div>
+        </aside>
+
+        <!-- Introductory Text Section -->
+        <section class="text">
+            <div class="vl"></div>
+            <div class="text-on-image">
+                <h1>BE PART OF THE SOLUTION <br><br>
+                    NOT OF THE POLLUTION
+                </h1>
+                <!-- Donation button -->
+                <a href="form.html" class="donation-button">Donate</a>
+            </div>
+        </section>
+
+        <!-- Additional Information Section -->
+        <section class="hidden">
+            <h2 class="h2">Delve deeper into Nature.</h2>
+        </section>
+
+        <section class="hidden">
+            <!-- Info Box 1: Deforestation -->
+            <article class="box1" aria-label="learn more about deforestation">
+                <a href="deforestation.html">
+                    <p class="p1">Deforestation</p>
+                    <p class="p4">15 billion trees are felled annually.</p>
+                    <img src="./media/boximg1.jpg" alt="Deforestation">
+                </a>
+            </article>
+
+            <!-- Info Box 2: Greener Future -->
+            <article class="box2" aria-label="learn more about our work">
+                <a href="greener.html">
+                    <p class="p5">Growing a Greener Future Together.</p>
+                    <p class="p2">Greener</p>
+                    <img src="./media/boximg2.jpg" alt="Greener">
+                </a>
+            </article>
+
+            <!-- Info Box 3: Beauty of Nature -->
+            <article class="box3" aria-label="learn more about the beauty of nature">
+                <a href="beauty.html">
+                    <p class="p6">Immerse in nature's immense beauty,</p>
+                    <p class="p7">where every leaf and bloom tells a story of wonder.</p>
+                    <p class="p3">Beauty</p>
+                    <img src="./media/boximg3.jpg" alt="Beauty">
+                </a>
+            </article>
+        </section>
+
+        <!-- Video Section -->
+        <section class="hidden">
+            <h3 class="h3">See what we are about.</h3>
+        </section>
+        <section class="hidden">
+            <div class="box4">
+                <p class="p8">We plant estimated <br><br> 11 million<br><br> trees every month.</p>
+                <p class="p9">Supporting our reforestation projects revitalizes <br class="br1"><br>ecosystems, boosts biodiversity. Join our team<br class="br1"><br> and make a meaningful difference by volunteering <br class="br1"><br> with our tree-planting initiatives.</p>
+                <!-- Embedded Video -->
+                <video loop autoplay muted>
+                    <source src="./media/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Discover More Button -->
+            <div><a href="learnmorepage.html" class="learn" type="button">Discover more</a></div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footerBODY">
+            <!-- Footer Navigation Links -->
+            <nav class="footer">
+                <a href="help.html">Help</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="events.html">Events</a>
+                <a href="terms.html">Terms of Service</a>
+            </nav>
+            <!-- Page Owner Credit -->
+            <p class="credit">Copyright © Amzad Hussain Rifat, 10369072</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
