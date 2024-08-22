@@ -1,0 +1,572 @@
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the logo text */
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Base body styling including background image, positioning, and font settings */
+body {
+    font-family: Arial, sans-serif;
+    color: #1A3636;
+    background-color: #ffffff;
+    background-image: url('back.jpg');
+    background-position: 10px top;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styling including alignment and background color */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+/* Email text styling */
+.emailtext{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 11px;
+    color: #1A3636;
+}
+
+/* Logout button styling, hidden by default */
+.logout{
+    background-color: #C40C0C;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+}
+
+/* Navigation list styling */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/* Navigation list item styling */
+nav ul li {
+    margin-left: 20px;
+}
+
+/* Navigation links styling */
+nav ul li a {
+    color: #1A3636;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 6px;
+}
+
+/* Dropdown menu styling */
+ul li ul.dropdown {
+    width: 160px;
+    background: #ffffff;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    z-index: 10;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Dropdown list item styling */
+ul li ul.dropdown li {
+    display: block;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Dropdown list item hover effect */
+ul li ul.dropdown li:hover {
+    background-color: #d4d4d4;
+}
+
+/* Show dropdown menu on hover */
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Dropdown links styling */
+ul li ul.dropdown li a {
+    text-decoration: none;
+    color: #3b3b3b;
+    display: block;
+}
+
+/* Donation button styling and positioning */
+.donation-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    position: absolute;
+    right: 5%;
+    top: 350px;
+}
+
+/* Donation button hover effect */
+.donation-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Styling for line break with margin */
+br {
+    display: block;
+    content: " ";
+    margin: 5px;
+}
+
+/* Text styling over the image */
+.text-on-image h1 {
+    font-size: 70px;
+    color: #000000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 285%;
+    left: 10%;
+}
+
+/* Vertical line styling */
+.vl{
+    border-left: 10px solid #ffffff;
+    height: 140px;
+    position: absolute;
+    top: 300%;
+    right: 93%;
+}
+
+/* Heading styling */
+.h2{
+    position: absolute;
+    top: 600px;
+    left: 40px;
+    color: #1A3636;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Hidden element styling with animation */
+.hidden{
+    opacity: 0;
+    transition: all 3s;
+    transform: translateX(-5%);
+}
+
+/* Show hidden element with animation */
+.show{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* Styling for box1 with specific dimensions and positioning */
+.box1{
+    height: 550px;
+    width: 300px;
+    scale: 1.3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 850px;
+    left: 6%;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+/* Styling for box2 with specific dimensions and positioning */
+.box2{
+    height: 550px;
+    width: 300px;
+    scale: 1.3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 850px;
+    left: 38%;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+/* Styling for box3 with specific dimensions and positioning */
+.box3{
+    height: 550px;
+    width: 300px;
+    scale: 1.3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 850px;
+    left: 70%;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+/* Hover effect for box1 */
+.box1:hover {
+    transform: scale(1.02);
+    filter: brightness(95%);
+}
+
+/* Hover effect for box2 */
+.box2:hover {
+    transform: scale(1.02);
+    filter: brightness(95%);
+}
+
+/* Hover effect for box3 */
+.box3:hover {
+    transform: scale(1.02);
+    filter: brightness(95%);
+}
+
+/* Image inside box1 styling */
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Image inside box2 styling */
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Image inside box3 styling */
+.box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Box4 styling for a video container */
+.box4{
+    width: 1920px;
+    height: 1080px;
+    scale: 0.638;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 1600px;
+    left: 297px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Video inside box4 styling */
+.box4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for paragraph text p1 */
+.p1{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    font-size: 16px;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p2 */
+.p2{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    font-size: 16px;
+    color: #f8f8f8;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p3 */
+.p3{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p4 */
+.p4{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p5 */
+.p5{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p6 */
+.p6{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    bottom: 25%;
+    font-size: 30px;
+    color: #083604;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for paragraph text p7 */
+.p7{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+/* Heading styling for section */
+.h3{
+    position: absolute;
+    top: 1600px;
+    left: 40px;
+    color: #1A3636;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Styling for large text p8 */
+.p8{
+    text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 130px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for smaller text p9 */
+.p9{
+    text-align: left;
+    position: absolute;
+    left: 5.5%;
+    top: 60%;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+/* Large line break styling */
+.br1{
+    display: block;
+    content: " ";
+    margin: 15px;
+}
+
+/* Learn more button styling and positioning */
+.learn{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    color: #1A3636;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    border-radius: 35px;
+    font-weight: bold;
+    position: absolute;
+    right: 12%;
+    top: 2300px;
+    cursor: pointer;
+}
+
+/* Hover effect for learn more button */
+.learn:hover{
+    background-color: #cefff8;
+    color: #000000;
+}
+
+/* Footer section container styling */
+.footerBODY{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 2700px;
+    background-color: #d2ffd2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Footer text alignment and margin */
+.footer {
+    margin: 40px;
+    text-align: center;
+}
+
+/* Footer links styling */
+footer a {
+    color: #50575f;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Footer links hover effect */
+footer a:hover {
+    font-weight: bold;
+}
+
+/* Credit text styling at the bottom right of the page */
+.credit{
+    color: #0f3b19;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 30%;
+}
+
+/* Cookie popup styling */
+.cookie-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* Ensure it's in front of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cookie popup content box styling */
+.cookie-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-height: 600px;
+    width: 60%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+/* Cookie popup heading styling */
+.cookie-content h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 25px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Cookie popup subheading styling */
+.cookie-content h2 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Cookie popup paragraph text styling */
+.cookie-content p {
+    margin: 25px;
+    color: #2c2929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Cookie popup line break styling */
+.cookie-content br {
+    margin: 20px;
+}
+
+/* Button container for cookie popup buttons */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+/* Accept and reject button styling */
+.acceptbutton, .rejectbutton {
+    background-color: #1A3636;
+    margin: 10px;
+    color: white;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+/* Hover effect for accept and reject buttons */
+.acceptbutton:hover, .rejectbutton:hover {
+    background-color: #1b1b1b;
+}
