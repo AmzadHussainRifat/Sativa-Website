@@ -1,0 +1,291 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    background-position: center;
+    background-size:cover;
+      
+}
+header{
+    position:absolute;
+    left:10%;
+    top:30%;
+}
+.h1{
+    font-weight: lighter;
+    font-size: 150px;
+    color :#1A3636;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px  #cfcfcf;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
+.p1{
+    color:rgb(92, 92, 92);
+    word-spacing: 9px;
+    letter-spacing:3px ;
+    margin-top: 0px;
+}
+
+br {
+    display: block;
+    content: " ";
+    margin: 8px ;
+ }
+
+.error{
+    color: red;
+    margin-bottom: 5px;
+}
+
+.thank-you{
+    display:flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.shape{
+    max-width: 320px;
+    position: absolute;
+    right:10%;
+    top:8%;
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 70px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(218, 218, 218);
+    margin-left: 80px;
+}
+.lab1{
+    padding: 10px;
+    display: block;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.lab2{
+    padding: 10px;
+    display: block;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.lab3{
+    padding: 10px;
+    display: block;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.lab4{
+    padding: 10px;
+    display: block;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.lab5{
+    padding: 10px;
+    display: block;
+    font-weight: lighter;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+
+input::placeholder {
+    color: #aaa;
+    transition: opacity 0.3s ease;
+}
+
+
+input:hover {
+    border-color: #aaa;
+}
+
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+
+.name1{
+    background:#ffffff;
+    border : 1px solid rgb(116, 115, 115);
+    border-radius: 15px;
+    width:300px;
+    height: 40px;
+    display:block;
+}
+.name2{
+    background:#ffffff;
+    border : 1px solid rgb(116, 115, 115);
+    border-radius: 15px;
+    width:300px;
+    height: 40px;
+    display:block;
+}
+.email{
+    background:#ffffff;
+    border : 1px solid rgb(116, 115, 115);
+    border-radius: 15px;
+    width:300px;
+    height: 40px;
+    display:block;
+
+}
+.num{
+    background:#ffffff;
+    border : 1px solid rgb(116, 115, 115);
+    border-radius: 15px;
+    width:300px;
+    height: 40px;
+    display:block;
+
+}
+.place{
+    background:#ffffff;
+    border : 1px solid rgb(116, 115, 115);
+    border-radius: 15px;
+    width:300px;
+    height: 40px;
+    display:block;
+}
+.Donate{
+    display:flex;
+    margin-left: 72px;
+    margin-top: 40px;
+    padding: 15px 25px;
+    background-color:  #1A3636;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none; 
+    border-radius: 7px;
+	font-weight: bold;
+    
+}
+.Donate:hover {
+    background-color: #f1f1f1;
+	color: #808080
+}
+.footer {
+    position :absolute;
+    left: 0;
+    top: 1000px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.help-line{
+    color: #1A3636;
+    text-decoration: none;
+    position: absolute;
+    bottom: 35%;
+    left:3%;
+    font-weight: lighter;
+
+}
+.account{
+    color: #1A3636;
+    text-decoration: none;
+    position: absolute;
+    bottom: 35%;
+    left:7%;
+    font-weight: lighter;
+ 
+
+}
+.copyright{
+    color: #afafaf;
+    position: absolute;
+    bottom: 5%;
+    right:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size :smaller;
+    font-style: italic;
+}
+/* for sign up */
+
+.accountsign{
+    color: #1A3636;
+    text-decoration: none;
+    position: absolute;
+   top: 50%;
+    left:7%;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+.help-linesign{
+    color: #1A3636;
+    text-decoration: none;
+    position: absolute;
+   top: 50%;
+    left:3%;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+.Donatesign{
+    display:flex;
+    margin-top: 40px;
+    padding: 15px 25px;
+    background-color:  #1A3636;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none; 
+    border-radius: 7px;
+	font-weight: bold;
+
+
+}
+.Donatesign:hover {
+    background-color: #f1f1f1;
+	color: #808080
+}
+.footersign {
+    position :absolute;
+    left: 0;
+    top: 700px;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+}
+.loginsing{
+    margin: 20px;
+    position: absolute;
+    left: 11%;
+}
+.logtext{
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
